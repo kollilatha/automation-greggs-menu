@@ -1,5 +1,5 @@
 # Automation-Greggs-Menu
-This is Automation Project to Test Greggs Website and its menu (https://www.greggs.com/menu) functionality using Selenium Webdriver.
+This is Automation Project to Test Greggs Website and its menu (https://www.greggs.com/menu) functionality using Selenium Webdriver in a Maven based Java Project.
 
 
 I have used Cucumber BDD framework and in that I have created Feature file, stepdefinition file, test runner file.
