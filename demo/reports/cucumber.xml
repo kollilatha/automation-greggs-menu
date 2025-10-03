@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="101.534" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-10-03T00:28:59.854782Z">
+<testcase classname="Greggs Menu Categories" name="Select filter icon on the menu page" time="13.008">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I click on filter menu pop up should be displayed......................passed
+Then from selected calories should be adjusted so i should select items.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Page Functional Verification" name="Verify category selection updates products" time="7.773">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I select "Breakfast" category..........................................passed
+Then only breakfast items should be displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Page Functional Verification" name="Verify search functionality" time="7.022">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I search for "Sausage Roll"............................................passed
+Then the search results should include "Sausage Roll".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Categories" name="View items in a menu category - #1.1" time="7.304">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I select the "Breakfast" category......................................passed
+Then I should see a list of "Breakfast".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Categories" name="View items in a menu category - #1.2" time="7.386">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I select the "Savouries & Bakes" category..............................passed
+Then I should see a list of "Savouries & Bakes".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Categories" name="View items in a menu category - #1.3" time="7.342">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I select the "Drinks & Snacks" category................................passed
+Then I should see a list of "Drinks & Snacks"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Categories" name="View items in a menu category - #1.4" time="7.04">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I select the "Sandwiches & Salads" category............................passed
+Then I should see a list of "Sandwiches & Salads"...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Categories" name="View items in a menu category - #1.5" time="7.439">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I select the "Sweet Treats" category...................................passed
+Then I should see a list of "Sweet Treats"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Categories" name="View items in a menu category - #1.6" time="7.159">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I select the "Hot Food" category.......................................passed
+Then I should see a list of "Hot Food"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Categories" name="view items" time="9.405">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When i check top menu.......................................................passed
+Then click on list..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Menu Categories" name="Select filter icon on the menu page" time="15.143">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+When I click on filter menu pop up should be displayed......................passed
+Then from selected category I should select items...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Greggs Website Performance Testing" name="Measure page load time" time="5.418">
+<system-out><![CDATA[
+Given I am on the Greggs menu page..........................................passed
+Then page should load within 3 seconds......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
