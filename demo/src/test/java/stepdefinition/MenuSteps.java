@@ -111,7 +111,7 @@ public void from_selected_category_i_should_select_items() {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        WebElement savouries = driver.findElement(By.xpath("//*[text()='Savouries & Bakes (11)']"));
+        WebElement savouries = driver.findElement(By.xpath("//*[text()='Savouries & Bakes (10)']"));
         savouries.click();
          try {
                 Thread.sleep(2000); // Wait for filter menu to appear
